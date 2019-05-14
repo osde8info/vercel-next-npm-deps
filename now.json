@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "zeit-now-npmdeps",
+    "name": "zeit-now-npm-deps",
     "builds": [
         { "src": "*.php", "use": "@now/php" }
     ]
