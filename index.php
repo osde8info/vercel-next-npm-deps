@@ -1,4 +1,6 @@
 <?php
+phpinfo();
+exit;
 
 // now hosted on zeit now
 
