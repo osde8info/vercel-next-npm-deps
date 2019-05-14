@@ -3,5 +3,8 @@
     "name": "zeit-now-npm-deps",
     "builds": [
         { "src": "*.php", "use": "@now/php" }
-    ]
+    ],
+    "routes": [
+        { "src": "/(.*)/(.*)", "dest": "/index.php" }
+      ]
 }
