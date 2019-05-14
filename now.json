@@ -1,0 +1,7 @@
+{
+    "version": 2,
+    "name": "zeit-now-npmdeps",
+    "builds": [
+        { "src": "*.php", "use": "@now/php" }
+    ]
+}
