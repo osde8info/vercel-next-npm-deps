@@ -4,7 +4,10 @@
 
 include 'src/npm.php';
 
-list($separator,$pack,$ver) = explode('/',$_SERVER['REQUEST_URI']);
+// list($separator,$pack,$ver) = explode('/',$_SERVER['REQUEST_URI']);
+
+$pack='chai';
+$ver='latest';
 
 $npm = new Npm;
 
